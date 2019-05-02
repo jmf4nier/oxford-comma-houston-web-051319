@@ -2,7 +2,7 @@ array = ["jason", "micah", "souki", "aaron"]
 
 def oxford_comma(array)
    new_array = array.insert(-2, "and")
-   array.join
+   array[-1,-2].join
   
 end
 
