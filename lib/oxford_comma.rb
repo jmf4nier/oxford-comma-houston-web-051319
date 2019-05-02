@@ -2,7 +2,7 @@
 array = ["jason", "souki"]
 #array = ["jason"]
 def oxford_comma(array)
-  if array.length > 1
+  if array.length > 2
     new_array = "and " + array.pop
     array.push(new_array)
     array.join(", ")
