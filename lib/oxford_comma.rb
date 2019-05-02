@@ -1,6 +1,6 @@
 array = ["jason", "micah", "souki"]
 
 def oxford_comma(array)
-   array.join(",").last
+   array.last.join(",")
   
 end
