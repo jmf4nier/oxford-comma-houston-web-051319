@@ -1,4 +1,4 @@
-array = ["jason", "micah", "souki"]
+array = ["jason", "micah", "souki", "aaron"]
 
 def oxford_comma(array)
    array.insert(-2, "and")
