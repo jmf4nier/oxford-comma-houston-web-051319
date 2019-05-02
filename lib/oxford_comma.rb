@@ -1,6 +1,7 @@
 array = ["jason", "micah", "souki"]
 
 def oxford_comma(array)
-   array.join(",")
+   string = array.join(",")
+   string << "and"
   
 end
